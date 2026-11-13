@@ -30,6 +30,9 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
+      - name: 🏗️ Compilar Aplicacao Web (Dist)
+        run: npm run build
+
       - name: 🔄 Sincronizar Capacitor com Android
         run: npx cap sync android
 
