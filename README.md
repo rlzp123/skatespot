@@ -11,11 +11,11 @@ Aplicativo mobile híbrido desenvolvido com **React**, **TypeScript** e **Capaci
 
 | Capa 3D & Manobras | Lista de Pistas |
 | :---: | :---: |
-| ![Capa 3D](./screenshots/mockup-capa.png) | ![Lista de Pistas](./screenshots/mockup-pistas.png) |
+| ![Capa 3D](./screenshots/Capa_app.jpeg) | ![Lista de Pistas](./screenshots/Pistas_app.jpeg) |
 
 | Mapa Urbano | Setup & Guia |
 | :---: | :---: |
-| ![Mapa Urbano](./screenshots/mockup-mapa.png) | ![Setup e Manobras](./screenshots/mockup-setup.png) |
+| ![Mapa Urbano](./screenshots/Mapa_app.jpeg) | ![Setup e Manobras](./screenshots/Setup_app.jpeg) |
 
 ## 🛠️ Tecnologias Utilizadas
 - React + TypeScript + Vite
