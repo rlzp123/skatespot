@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SkateSpot</string>
+    <string name="title_activity_main">SkateSpot</string>
+    <string name="package_name">com.skatespot.app</string>
+    <string name="custom_url_scheme">com.skatespot.app</string>
+</resources>
