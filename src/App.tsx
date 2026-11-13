@@ -942,7 +942,7 @@ function Obstacle3DPreview({
    APLICATIVO PRINCIPAL SKATESPOT
    ============================================================================ */
 export default function App() {
-  const [themeKey, setThemeKey] = useState<ThemeKey>('volt');
+  const [themeKey] = useState<ThemeKey>('volt');
   const theme = THEMES[themeKey];
 
   const [spots, setSpots] = useState<Spot[]>(INITIAL_SPOTS);
@@ -982,12 +982,6 @@ export default function App() {
 
   const skaterRank =
     totalXp >= 400 ? 'Pro Local' : totalXp >= 200 ? 'Amador Urbano' : 'Rookie';
-
-  const cycleTheme = () => {
-    const order: ThemeKey[] = ['volt', 'coral', 'sunset'];
-    const next = order[(order.indexOf(themeKey) + 1) % order.length];
-    setThemeKey(next);
-  };
 
   const filteredSpots = spots.filter((spot) => {
     const matchType = filterType === 'Todos' || spot.type === filterType;
